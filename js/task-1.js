@@ -101,4 +101,10 @@ closeModal.addEventListener('click', () => {
     lightbox.classList.remove('is-open')
 })
 
+// document.addEventListener('keypress', function (e) {
+//     if (e.target.keyCode === 27) {
+//         lightbox.classList.remove('is-open')
+//     }
+// });
+
 gallery.addEventListener('click', onGalleryClick)
