@@ -99,8 +99,8 @@ const onGalleryClick = function (event) {
 
 closeModal.addEventListener('click', () => {
     lightbox.classList.remove('is-open')
-    // lightboxImage.src = '';
-    lightbox.classList.remove('lightbox__iamge')
+    lightboxImage.src = '';
+    // lightbox.classList.remove('lightbox__iamge')
 })
 
 // document.addEventListener('keypress', function (e) {
