@@ -39,7 +39,7 @@ closeModal.addEventListener('click', () => {
     // lightbox.classList.remove('lightbox__iamge')
 })
 
-// document.addEventListener('keypress', function (e) {
+// window.addEventListener('keydown', function (e) {
 //     if (e.target.keyCode === 27) {
 //         lightbox.classList.remove('is-open')
 //     }
